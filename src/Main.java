@@ -8,6 +8,6 @@ public class Main {
 
         ResourceBundle resourceBundle = ResourceBundle.getBundle("labels", locale_ru_RU);
 
-        System.out.println(resourceBundle.getString("hello"));
+        System.out.println(resourceBundle.getString("hello") + " " + resourceBundle.getString("something"));
     }
 }
